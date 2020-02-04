@@ -1,0 +1,21 @@
+{% extends "http.html" %}
+
+{% block titill %}
+    Fake news
+{% endblock %}
+
+{% block innihald %}
+<div class="haus">
+    <h1>Fakenews.nut</h1>
+</div>
+<h2>{{frett[1]}}</h2>
+<h3>{{frett[2]}}</h3>
+
+<img src="/static/{{ frett[4] }}" width="600" height="400">
+
+<footer class="fotur">
+    <h5>{{frett[3]}}</h5>
+</footer>
+
+{% endblock %}
+

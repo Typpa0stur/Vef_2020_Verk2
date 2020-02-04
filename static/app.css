@@ -1,0 +1,21 @@
+﻿body {
+    background-color: tomato;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+}
+
+.haus {
+    background-color: tomato;
+    border: 0.3px solid;
+    border-radius: 5px;
+    text-align: center;
+}
+/*  þessi virkar ekki   */
+.fotur {
+    border: 1px solid;
+    border-radius: 5px;
+    text-align: center;
+}
+
+span {
+    font-style: italic
+}

@@ -1,0 +1,1 @@
+web: gunicorn app:Vef_verkefni1

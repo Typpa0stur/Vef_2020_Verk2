@@ -1,0 +1,16 @@
+{% extends "http.html" %}
+
+{% block titill %}
+    Index
+{% endblock %}
+
+{% block innihald %}
+    <div class="haus">
+        <h1>Fakenews.nut</h1>
+    </div>
+
+    {% for i in frettir %}
+    <h3><a href="/frett/{{ i[0] }}">{{ i[1] }}</a></h3>
+    {% endfor %}
+{% endblock %}
+
